@@ -18,3 +18,19 @@ env/
 # Project Output
 /output/
 /logs/
+
+# Virtual environments
+.venv/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Environment variables (sensitive data)
+.env
