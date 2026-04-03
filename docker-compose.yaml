@@ -1,0 +1,8 @@
+services:
+  notebook:
+    image: quay.io/jupyter/datascience-notebook:1aac87eb7fa5
+    volumes:
+      - .:/home/jovyan/work
+    ports:
+      - '8888:8888'
+    command: start-notebook.sh  --ServerApp.root_dir=/home/jovyan/work --NotebookApp.token=''
