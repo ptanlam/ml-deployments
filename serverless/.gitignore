@@ -22,3 +22,6 @@ crash.log
 # CLI configuration
 .terraformrc
 terraform.rc
+*.zip
+
+service_account_key.json

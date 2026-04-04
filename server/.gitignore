@@ -17,5 +17,3 @@ build/
 
 # Environment variables (sensitive data)
 .env
-
-*/**/service_account_key.json
