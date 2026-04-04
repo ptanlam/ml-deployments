@@ -1,0 +1,24 @@
+# Local infrastructure testing directories
+.terraform/
+
+# State files
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
+# Configuration variables
+*.tfvars
+*.tfvars.json
+
+# Local-only overrides
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Logs
+crash.log
+
+# CLI configuration
+.terraformrc
+terraform.rc

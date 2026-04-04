@@ -1,20 +1,3 @@
-# Jupyter Notebook
-.ipynb_checkpoints/
-*.ipynb_metadata
-
-# Python
-__pycache__/
-*.pyc
-
-# Environments
-.env
-venv/
-env/
-
-# IDE
-.idea/
-.vscode/
-
 # Project Output
 /output/
 /logs/
@@ -34,3 +17,5 @@ build/
 
 # Environment variables (sensitive data)
 .env
+
+*/**/service_account_key.json
